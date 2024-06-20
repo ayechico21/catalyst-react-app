@@ -1,0 +1,17 @@
+{
+  "functions": {
+    "targets": ["react_app_test_function"],
+    "ignore": [],
+    "source": "functions"
+  },
+  "client": {
+    "source": "client/app/dist",
+    "ignore": [],
+    "scripts": {
+      "packageJson": "cd ../../ && copy client-package.json app\\dist\\",
+      "build": "cd ../ && npm install && npm run build",
+      "preserve": "catalyst run client:build && catalyst run client:packageJson",
+      "predeploy": "catalyst run client:build && catalyst run client:packageJson"
+    }
+  }
+}

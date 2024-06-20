@@ -1,0 +1,9 @@
+{
+	"name": "react_app_test_function",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "maneesh@fusionhawk.io",
+	"dependencies": {
+		"zcatalyst-sdk-node": "latest"
+	}
+}

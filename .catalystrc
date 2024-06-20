@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "7163000000033051",
+      "name": "react-app-test",
+      "domain": {
+        "id": "50019979768",
+        "name": "react-app-test-60028693698.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60028693698",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}
